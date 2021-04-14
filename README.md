@@ -154,7 +154,7 @@
 ### 快速开始
 1. 克隆仓库到本地
 ```
-git clone https://github.com/DoubleVII/xxx
+git clone https://github.com/DoubleVII/gobang_tutorial
 ```
 
 2. 在`gobang.py`中创建`Piece`，`Chessboard`和`Game`类。
