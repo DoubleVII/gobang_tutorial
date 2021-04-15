@@ -156,6 +156,10 @@
 ```
 git clone https://github.com/DoubleVII/gobang_tutorial
 ```
+如果你无法连接Github服务器，你可以尝试以下命令：
+```
+git clone https://hub.fastgit.org/DoubleVII/gobang_tutorial
+```
 
 2. 在`gobang.py`中创建`Piece`，`Chessboard`和`Game`类。
 
