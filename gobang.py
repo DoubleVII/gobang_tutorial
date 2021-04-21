@@ -194,7 +194,7 @@ class SuperGame:
 
 
 class Display:
-    def __init__(self, gbk_console=False):
+    def __init__(self, gbk_console=False, ascii_piece=False):
         """
         Initialization.
 
@@ -209,8 +209,8 @@ class Display:
             sys.stdout.buffer, encoding="gbk" if gbk_console else "utf-8"
         )
 
-        self.balck_unit = "●"  # if not gbk_console else "x"
-        self.white_unit = "○"  # if not gbk_console else "o"
+        self.balck_unit = "●"  if not ascii_piece else "x"
+        self.white_unit = "○"  if not ascii_piece else "o"
         self.empty_unit = "+"
 
     def input_board_size(self) -> int:

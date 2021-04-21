@@ -346,7 +346,8 @@ python gobang.py
 ### 注意事项
 1. 建议使用浅色背景的控制台运行程序，否则黑子和白子的颜色会反色。
 2. 如果你的程序输出存在中文乱码的情况，那么你可以在`SuperGame`的构造函数中更改`Display`的初始化参数：`self.display = Display(gbk_console=True)`。
-3. 通常来说，黑子先手。
+3. 如果你的程序的棋子无法正常显示，那么可以使用完全ASCII编码的版本，启用后，黑子以字母'x'表示，白子以字母'o'表示。启用方法与第2点相似，修改`Display`的初始化参数：`self.display = Display(ascii_piece=True)`。
+4. 通常来说，黑子先手。
 
 
 ## 作业提交
